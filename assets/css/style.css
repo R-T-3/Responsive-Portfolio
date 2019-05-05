@@ -1,0 +1,241 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    background: url(../images/united-squares-negative.png);
+}
+
+.navbar {
+    background: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    height: 60px;
+    border-bottom: #cccccc solid 3px;
+}
+  
+header {
+    align-self: center;
+    width: 960px;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    margin: auto;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+}
+  
+h1 {
+    text-align: center;
+    white-space: nowrap;
+    padding:  18px;
+    font-size: 32px;
+    background: #4aaaa5;
+    color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    margin: 0;  
+}
+  
+header::after {
+    clear: both;
+}
+    
+nav {
+    float: right;
+}
+  
+nav::after {
+    clear: both;
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 70px;
+    padding-top: 15px;
+    height: 100%;
+    margin-bottom: 0;
+}
+  
+li a:hover {
+    color: #4aaaa5;
+}
+  
+#l1 {
+    padding-right: 24px;
+    white-space: nowrap;
+}
+  
+#l2 {
+    padding-right: 10px;
+}
+  
+h2 {
+    font-size: 28px;
+    color:#4aaaa5;
+    background-color: #ffffff; 
+    text-align: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 4px solid lightgray;
+    padding: 20px;
+    margin: 20px;
+}
+  
+  
+a {
+    color: #777777;
+}
+  
+  .container {
+    max-width: 960px;
+    margin: auto;
+    margin-top: 40px;
+    color: #777777;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    overflow: auto;
+    padding: 0;
+    min-height: 100%;
+    margin-bottom: 150px;
+}
+  
+.footer .push {
+    height: 50px;
+}
+  
+.footer {
+    background: #666666;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    border-top: 10px solid #4aaaa5;
+    max-height: 40px;
+    padding-top: 10px;
+}
+  
+#pic {
+    float: left;
+    padding: 20px;
+}
+  
+#paragraphs {
+    color: #777777;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0;
+}
+  
+form {
+    padding: 20px;
+    height: 25%;
+}
+  
+input {
+    color: #dddddd;
+    font-size: 18px;
+}
+  
+input[type=text] {
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 8px;
+    width: 98%;
+}
+  
+input[type=submit] {
+    background: #4aaaa5;
+    color: #ffffff;
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+}
+  
+#message-box {
+    height: 200px;
+}
+  
+.pics {
+    margin: 20px;
+}
+
+@media screen and (max-width: 980px) {
+      
+    .container {
+          width: 70%;
+          margin-right: 200px;
+          margin-left: 40px;
+        }
+      header {
+          width: 70%;
+          margin-right: 200px;
+          margin-left: 40px;
+        }
+}
+
+@media screen and (max-width: 768px) {
+        
+    .container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    header {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}  
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    header {
+        width: 100%;
+        margin: 0%;
+    }
+
+    h1 {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        left: -20px;
+    }
+
+    nav {
+        background-color: #ffffff;
+        width: 100%;
+        height: 60px;
+        margin-left: 20px;
+        position: relative;
+        margin-bottom: 30px;
+        border-bottom: #cccccc solid 3px;
+    }
+
+    ul {
+       position: relative;
+       right: -180px;
+    }
+}
+
